@@ -2,6 +2,7 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\EnvCheck;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -53,6 +54,8 @@ class Kernel extends HttpKernel
     protected $routeMiddleware = [
         // 设置passport token
         'passport' => \Laravel\Passport\Http\Middleware\CreateFreshApiToken::class,
+        // 本地环境检测，用于本地模拟登陆
+        'env_check' => EnvCheck::class,
         'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'auth.admin' => \App\Http\Middleware\MustBeAdmin::class,

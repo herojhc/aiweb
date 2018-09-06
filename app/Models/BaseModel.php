@@ -12,6 +12,7 @@ namespace App\Models;
 use App\Models\Interfaces\BaseModelEventsInterface;
 use App\Models\Traits\BaseModelEvents;
 use Illuminate\Database\Eloquent\Model;
+use XinXiHua\SDK\Models\Contact;
 
 class BaseModel extends Model implements BaseModelEventsInterface
 {

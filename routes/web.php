@@ -27,7 +27,7 @@ Route::group(['middleware' => ['passport']], function () {
     Route::get('/home', 'HomeController@index');
 
     /* Admin Index */
-    Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'auth.admin']], function () {
+    Route::group(['prefix' => 'admin', 'middleware' => ['env_check', 'auth', 'auth.admin']], function () {
 
         Route::get('{path?}', 'AdminController@index')->where('path', '[\/\w\.-]*');
     });

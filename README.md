@@ -52,7 +52,7 @@ npm run dev
 
 3. 模拟登陆
 
-*暂时需要自己实现，后期会在SDK中实现。*
+通过中间件 EnvCheck ,当检测为本地环境时，自动登陆。
 
 
 
@@ -60,8 +60,8 @@ npm run dev
 ## 注意问题
 
 1. **平台是 SAAS 模式，各租户之间共用数据库，可使用 corp_id 字段进行租户数据隔离**
-2. 平台API 地址  [http://doc.xinxihua.com](http://doc.xinxihua.com)
-3. 
+2. 平台API 地址  [http://doc.xinxihua.com](http://doc.xinxihua.com)，注意互联互通
+3. ...
 
 
 

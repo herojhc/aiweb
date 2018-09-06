@@ -16,7 +16,6 @@ ENV APP_ENV=production
 ADD build/tools/composer.phar /usr/local/bin/composer
 RUN chmod 755 /usr/local/bin/composer
 RUN composer config -g repo.packagist composer https://wfhtmc:H2_u6_kU0@repo.huaweicloud.com/repository/php/
-#RUN composer config -g repo.packagist composer https://packagist.phpcomposer.com
 
 # 全局安装部署命令
 RUN composer global require laravel/envoy
