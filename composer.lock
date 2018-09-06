@@ -891,17 +891,17 @@
         },
         {
             "name": "herojhc/xxh-sdk",
-            "version": "0.1.6",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/herojhc/xxhsdk.git",
-                "reference": "bf98b8b71b70b81a2cabd21bd45770cf7ce4a45b"
+                "reference": "4dec76f41a29ed1e6724f5bac1b37bdf79d1f947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.huaweicloud.com/repository/php/dist/herojhc/xxh-sdk/herojhc-xxh-sdk-0.1.6-bf98b8b7.zip",
-                "reference": "bf98b8b71b70b81a2cabd21bd45770cf7ce4a45b",
-                "shasum": "b4fc6284db7062008ea050b53e482fd0bdf94206"
+                "url": "https://repo.huaweicloud.com/repository/php/dist/herojhc/xxh-sdk/herojhc-xxh-sdk-0.1.7-4dec76f4.zip",
+                "reference": "4dec76f41a29ed1e6724f5bac1b37bdf79d1f947",
+                "shasum": "47e923eb22828778f453fe04eae9a65daaaf5c0f"
             },
             "require": {
                 "doctrine/dbal": "~2.6",
@@ -947,7 +947,7 @@
                 "oauth2",
                 "xinxihua"
             ],
-            "time": "2018-07-25T07:38:30+00:00"
+            "time": "2018-09-04T08:44:44+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
