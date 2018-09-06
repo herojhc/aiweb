@@ -1,4 +1,4 @@
-FROM 100.125.0.198:20202/xxh/php:7.1.12-fpm-jessie-prod
+FROM swr.cn-north-1.myhuaweicloud.com/xxh/php:7.1.12-fpm-jessie-prod
 
 # 拷贝解压缩包
 COPY build/tools/unzip_6.0-16+deb8u3_amd64.deb /home/unzip.deb

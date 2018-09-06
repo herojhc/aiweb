@@ -30,7 +30,7 @@ class InstallCodeSeeder extends Seeder
 
         DB::table('corporation_permanent_codes')->delete();
         DB::table('corporation_permanent_codes')->insert([
-            ['corp_id' => 1574, 'agent_id' => '10009', 'name' => 'test', 'permanent_code' => 'rGDbFVtI1AGQkoyqdy3J7qoYp8msYKCO']
+            ['corp_id' => 1574, 'agent_id' => '10009', 'name' => 'test', 'permanent_code' => '4c7HHMf1Zrk5OncrY86sf0ziVe0nqrTr']
         ]);
     }
 }
